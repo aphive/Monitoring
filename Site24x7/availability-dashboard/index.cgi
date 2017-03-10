@@ -6,7 +6,7 @@
 # Description: Display current mounth's hourly availability data
 #              in a dashboard format.
 #              Use the GetCheckDetails script to get the monitor IDs
-#              you will need to make this dashboard work
+#              you will need to make this dashboard work.
 #      Author: Computero
 #        Date: March/2017
 #     Version: 1.0.0
