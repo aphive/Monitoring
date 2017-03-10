@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Availability Dashboard</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<header><!-- START HEADER -->
+<h1>Availability Dashboard</h1>
+</header><!-- END HEADER -->
+<p>Thresholds: Above 99.97 = <span class="normal thresh">Normal</span> | Below 99.95 = <span class="critical thresh">Critical</span></p>
+<div class="container"><!-- START CONTAINER -->
+<div class="column"><!-- START COLUMN -->
+<div class="group linen"><!-- START GROUP -->
+<div class="skillbar clearfix" data-percent="100.0%">
+<div class="skillbar-title"><span>SiteName</span></div>
+<div class="skillbar-bar critical"></div>
+<div class="skill-bar-percent">80.0%</div>
+</div>
+</div><!-- END GROUP -->
+</div><!-- END COLUMN -->
+<div class="column"><!-- START COLUMN -->
+<div class="group linen"><!-- START GROUP -->
+<div class="skillbar clearfix" data-percent="100.0%">
+<div class="skillbar-title"><span>SiteName</span></div>
+<div class="skillbar-bar normal"></div>
+<div class="skill-bar-percent">100.0%</div>
+</div>
+</div><!-- END GROUP -->
+</div><!-- END COLUMN -->
+<div class="column"><!-- START COLUMN -->
+<div class="group linen"><!-- START GROUP -->
+<div class="skillbar clearfix" data-percent="100.0%">
+<div class="skillbar-title"><span>SiteName</span></div>
+<div class="skillbar-bar normal"></div>
+<div class="skill-bar-percent">100.0%</div>
+</div>
+</div><!-- END GROUP -->
+</div><!-- END COLUMN -->
+<div class="column"><!-- START COLUMN -->
+<div class="group linen"><!-- START GROUP -->
+<div class="skillbar clearfix" data-percent="99.99%">
+<div class="skillbar-title"><span>SiteName</span></div>
+<div class="skillbar-bar normal"></div>
+<div class="skill-bar-percent">99.99%</div>
+</div>
+</div><!-- END GROUP -->
+</div><!-- END COLUMN -->
+</div>
+</div>
+</body>
+<!-- BAR ANIMATION SCRIPT -->
+<script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery('.skillbar').each(function(){
+    jQuery(this).find('.skillbar-bar').animate({
+        width:jQuery(this).attr('data-percent')
+    },2000);
+});
+});
+</script>
+</html>
