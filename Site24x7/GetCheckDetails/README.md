@@ -9,7 +9,8 @@ This script will scrape your Site24x7 account and list the checks, monitor_id an
 
 For URL checks the raw output will look like this:
 
-`{
+```
+{
     "code": 0,
     "data": [
         {
@@ -35,6 +36,7 @@ For URL checks the raw output will look like this:
         },
     ],
     "message": "success"
-}`
+}
+```
 
 In this excerpt we would be pulling the following `display_name` , `monitor_id` and `website` so that we can get a printout like: `Check Name 000000000000000000  https://domain.com`
