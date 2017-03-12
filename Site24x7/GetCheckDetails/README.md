@@ -9,7 +9,7 @@ This script will scrape your Site24x7 account and list the checks, monitor_id an
 
 For URL checks the raw output will look like this:
 
-```
+```json
 {
     "code": 0,
     "data": [
