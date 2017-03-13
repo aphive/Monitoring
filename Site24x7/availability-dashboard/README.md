@@ -8,4 +8,12 @@ https://accounts.zoho.com/apiauthtoken/create?SCOPE=Site24x7/site24x7api
 ### Getting it done
 I won't go into how to setup your server with a web server to allow CGI to run but you will need to get this done to use this script.
 
-Once you get the server setup properly, drop this script and css file into the /var/www directory or wherever your web root directory is located. 
+Once you get the server setup properly, drop this script and css file into the /var/www directory or wherever your web root directory is located.
+
+#### Note
+* Ensure the script is execuable.
+* The page layout is fluid.
+
+####Screenshot
+![availability-dashboard](https://raw.githubusercontent.com/Computero/Monitoring/master/Site24x7/availability-dashboard/Screenshot.png?raw=true "Availability Dashboard")
+  
