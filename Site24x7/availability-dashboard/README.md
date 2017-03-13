@@ -14,6 +14,5 @@ Once you get the server setup properly, drop this script and css file into the /
 * Ensure the script is execuable.
 * The page layout is fluid.
 
-####Screenshot
-![availability-dashboard](https://raw.githubusercontent.com/Computero/Monitoring/master/Site24x7/availability-dashboard/Screenshot.png?raw=true "Availability Dashboard")
+
   
