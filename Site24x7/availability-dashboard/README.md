@@ -10,9 +10,11 @@ I won't go into how to setup your server with a web server to allow CGI to run b
 
 Once you get the server setup properly, drop this script and css file into the /var/www directory or wherever your web root directory is located.
 
-#### Note
+#### Important Note
 * Ensure the script is execuable.
 * The page layout is fluid.
 
 ####Screenshot
 ![availability-dashboard](https://raw.githubusercontent.com/Computero/Monitoring/master/Site24x7/availability-dashboard/Availability-Dashboard.png?raw=true "Availability Dashboard")
+
+**ps**: _The screenshot shows 99.97 and above as normal and below 99.95 as critical, the reason being that initially I had 99.95 to 99.96 as warning but ended up removing it and I forgot to update the dashboard with the proper numbers. The script has been properly updated however. I did not want to take another screenshot and go through another commit just for that._
