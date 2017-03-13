@@ -55,7 +55,7 @@ setTimeout("location.reload(true);", t);
 <header><!-- START HEADER -->
 <h1>Availability Dashboard</h1><hr />
 </header><!-- END HEADER -->
-<p>Thresholds: Above 99.97 = <span class="normthresh">Normal</span> | Below 99.95 = <span class="critthresh">Critical</span></p>
+<p>Thresholds: Above 99.95 = <span class="normthresh">Normal</span> | Below 99.95 = <span class="critthresh">Critical</span></p>
 <div class="container"><!-- START CONTAINER -->"""
 
 for monitor in monitors:
