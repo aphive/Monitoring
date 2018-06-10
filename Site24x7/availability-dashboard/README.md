@@ -6,7 +6,7 @@ This script uses the Site24x7 API to gather the needed information, you will nee
 https://accounts.zoho.com/apiauthtoken/create?SCOPE=Site24x7/site24x7api
 
 ### Getting it done
-I won't go into how to setup your server with a web server to allow CGI to run but you will need to get this done to use this script.
+I won't go into how to setup your server with a web server to allow web files to run but you will need to get this done to use this script.
 
 Once you get the server setup properly, drop this script and css file into the /var/www directory or wherever your web root directory is located.
 
