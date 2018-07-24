@@ -9,3 +9,6 @@ This script will allow you to pull pertinent data from Site24x7 API to work on o
 
 ### CustomAvailability
 This script will get availability for a specific date range. Say you want to know what your availability is for a specific quarter, just type in the start and end date and you will get the total availability for that date range.
+
+### LastQuarterAvailability
+This script will get last quarter availability percentage and generate an HTML page to display on a wallboard.
