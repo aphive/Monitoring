@@ -46,7 +46,7 @@ returned_monitors = {}
 # Putting it all together
 print """<html>
 <head>
-<title>Availability Dashboard</title>
+<title>Last Quarter Availability Dashboard</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="style.css">
@@ -61,7 +61,7 @@ setTimeout("location.reload(true);", t);
 </head>
 <body>
 <header><!-- START HEADER -->
-<h1>Availability Dashboard</h1>
+<h1>Last Quarter Availability Dashboard</h1>
 </header><!-- END HEADER -->
 <p>Thresholds: Above 99.95 = <span class="normal thresh">Normal</span> | Below 99.95 = <span class="critical thresh">Critical</span></p>
 <div class="container"><!-- START CONTAINER -->"""
