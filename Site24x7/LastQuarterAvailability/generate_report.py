@@ -4,7 +4,7 @@
 ###############################################################################
 #        Name: generate_report.py
 # Description: Display Last Quartey Availability data in a dashboard format.
-#      Author: Computero
+#      Author: MrTechBot
 #        Date: July/2018
 #     Version: 1.0.0
 ###############################################################################

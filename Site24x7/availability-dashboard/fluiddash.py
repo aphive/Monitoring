@@ -7,7 +7,7 @@
 #              in a dashboard format.
 #              Use the GetCheckDetails script to get the monitor IDs
 #              you will need to make this dashboard work.
-#      Author: Computero
+#      Author: MrTechBot
 #        Date: March/2017
 #     Version: 1.0.0
 ###############################################################################

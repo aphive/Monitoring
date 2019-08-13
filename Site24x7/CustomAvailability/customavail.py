@@ -4,7 +4,7 @@
 ###############################################################################
 #        Name: customavail.py
 # Description: Display availability for a custom date range
-#      Author: Computero
+#      Author: MrTechBot
 #        Date: January/2018
 #     Version: 1.0.0
 ###############################################################################
